@@ -1,10 +1,15 @@
-
-
-
-
-
-
-
+var currentplayer= "X"
+var totalnumber= 0
+let isEnded= false
+ 
+function performLogic (buttonId,tileId) {
+return buttonId + tileId;
+}
+ 
+function currentplayer () {
+     return ;
+}
+ 
 $("#button1").click(function() {
     performLogic("#button1","#tile1");
 });
